@@ -34,57 +34,23 @@
         </button>
       </div>
       <div class="text-xl font-bold mb-5">CV Language</div>
-      <div class="flex gap-2 mb-5">
-        <button v-for="(tab, index) in tabs"
-                :key="index"
-                @click="currentTab = tab"
-                :class="{
-          'bg-red-500': currentTab === tab,
-          'text-white': currentTab === tab,
-          'hover:bg-red-700': currentTab !== tab,
-          'hover:text-white': currentTab !== tab,
-          'border-red-500': currentTab !== tab,
-          'bg-transparent': currentTab !== tab
-        }"
-                class="border-2
-                border-red-500
-                text-black
-                py-2 px-4
-                rounded
-                hover:text-white
-                transition-colors
-                duration-300
-                hover:bg-red-600
-                focus:bg-red-600
-                active:bg-white
-                active:text-black">
-          {{ tab }}
-        </button>
+      <tab-langueges></tab-langueges>
+      <div class="text-xl font-bold mb-5">Your Level</div>
+      <tab-levels></tab-levels>
+      <div class="text-xl font-bold mb-5">Color Theme</div>
+      <tab-colors></tab-colors>
 
-      </div>
     </div>
     <div class="bg-gray-300 w-full md:w-2/3 p-4">Column 2</div>
   </div>
 </template>
 <script>
 import {onMounted, ref} from 'vue'
+import TabLangueges from '@/modules/resume/view/component/TabLangueges.vue'
+import TabLevels from '@/modules/resume/view/component/TabLevels.vue'
+import TabColors from '@/modules/resume/view/component/TabColors.vue'
 
 export default {
-  data() {
-    return {
-      currentTab: 'English',
-      tabs: [
-        'English',
-        'Spanish',
-        'Vietnamese',
-        'Chinese',
-        'Indonesian',
-        'German',
-        'French',
-        'Arabic',
-      ],
-    }
-  },
 
   mounted() {
 
@@ -92,7 +58,7 @@ export default {
 
   methods: {},
 
-  components: {},
+  components: {TabColors, TabLevels, TabLangueges},
 
   setup() {
 

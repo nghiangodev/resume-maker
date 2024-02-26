@@ -1,0 +1,49 @@
+{
+  "levels": [
+    {
+      "id": 1,
+      "code": "in",
+      "name": "Intern"
+    },
+    {
+      "id": 2,
+      "code": "fr",
+      "name": "Fresher"
+    },
+    {
+      "id": 3,
+      "code": "ju",
+      "name": "Junior"
+    },
+    {
+      "id": 4,
+      "code": "mi",
+      "name": "Middle"
+    },
+    {
+      "id": 5,
+      "code": "se",
+      "name": "Senior"
+    },
+    {
+      "id": 6,
+      "code": "la",
+      "name": "Lead Developer (Architect)"
+    },
+    {
+      "id": 7,
+      "code": "mla",
+      "name": "Mid-level Manager"
+    },
+    {
+      "id": 8,
+      "code": "sl",
+      "name": "Senior Leader"
+    },
+    {
+      "id": 9,
+      "code": "cto",
+      "name": "CTO (Chief Technology Officer)"
+    }
+  ]
+}
