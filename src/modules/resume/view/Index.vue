@@ -39,16 +39,17 @@
       <tab-levels></tab-levels>
       <div class="text-xl font-bold mb-5">Color Theme</div>
       <tab-colors></tab-colors>
-
+      <accordion></accordion>
     </div>
     <div class="bg-gray-300 w-full md:w-2/3 p-4">Column 2</div>
   </div>
 </template>
 <script>
 import {onMounted, ref} from 'vue'
-import TabLangueges from '@/modules/resume/view/component/TabLangueges.vue'
-import TabLevels from '@/modules/resume/view/component/TabLevels.vue'
-import TabColors from '@/modules/resume/view/component/TabColors.vue'
+import TabLangueges from '@/modules/resume/view/component/tabs/TabLangueges.vue'
+import TabLevels from '@/modules/resume/view/component/tabs/TabLevels.vue'
+import TabColors from '@/modules/resume/view/component/tabs/TabColors.vue'
+import Accordion from '@/modules/resume/view/AccordionComp.vue'
 
 export default {
 
@@ -58,7 +59,7 @@ export default {
 
   methods: {},
 
-  components: {TabColors, TabLevels, TabLangueges},
+  components: {Accordion, TabColors, TabLevels, TabLangueges},
 
   setup() {
 
