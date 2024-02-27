@@ -49,10 +49,12 @@
         </button>
       </div>
     </div>
-    <div class="bg-gray-300 w-full md:w-2/3">
-      <div class="section-resume flex">
-        dasdasdsada
-
+    <div class="bg-gray-300 w-full md:w-2/3 flex justify-center">
+      <div class="section-resume flex py-5 w-1/2">
+        <div class="flex gap-2 w-full  items-center h-[30px]">
+          <hr class="border-1 border-dotted border-black hover:border-red-500 duration-500 w-full" />
+          <span class="text-xs">1</span>
+        </div>
       </div>
       <Footer></Footer>
     </div>
