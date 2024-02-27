@@ -41,7 +41,7 @@
     </div>
     <div class="form__group flex-col flex w-full">
       <label class="form__label" for="aboutme">🌟 About me</label>
-      <textarea id="aboutme" class="form__control p-4 my-5" name="aboutme" cols="30" rows="10"></textarea>
+      <textarea id="aboutme" class="form__control p-4 my-5" name="aboutme" cols="30" rows="2"></textarea>
     </div>
   </div>
 </template>

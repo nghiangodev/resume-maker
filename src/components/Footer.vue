@@ -1,6 +1,6 @@
 <template >
 	 <footer class="footer">
-    © {{ currentYear }} AnthonyDesign
+    © {{ currentYear }} Made with ♥️ by Anthony using vue + tailwind
   </footer>
 </template>
 <script>
@@ -14,11 +14,9 @@
 </script>
 <style scoped>
 footer {
-  padding: 10px;
   text-align: center;
   position: fixed;
   bottom: 0;
-  width: 100%;
-  background-color: #f1f1f1;
+  width: 67%;
 }
 </style>

@@ -4,7 +4,7 @@
         v-for="(item, index) in items"
         :key="index"
         @click="toggleAccordion(index)"
-        class=" cursor-pointer pt-5"
+        class=" cursor-pointer pt-10"
     >
       <div class="flex items-center justify-between">
         <div class="text-black text-xl font-bold">{{ item.title }}</div>
@@ -32,10 +32,22 @@
           <skills></skills>
         </div>
         <div v-if="index === 2" @click.stop>
+          <social></social>
+        </div>
+        <div v-if="index === 3" @click.stop>
           <experience></experience>
         </div>
+        <div v-if="index === 4" @click.stop>
+          <projects></projects>
+        </div>
+        <div v-if="index === 5" @click.stop>
+          <education></education>
+        </div>
         <div v-if="index === 6" @click.stop>
-          <social></social>
+          <activities></activities>
+        </div>
+        <div v-if="index === 7" @click.stop>
+          <hobbies></hobbies>
         </div>
       </div>
     </div>
@@ -47,20 +59,26 @@ import Persional_details from '@/modules/resume/view/component/collapse-items/pe
 import Skills from '@/modules/resume/view/component/collapse-items/skills.vue'
 import Experience from '@/modules/resume/view/component/collapse-items/experience.vue'
 import Social from '@/modules/resume/view/component/collapse-items/social.vue'
+import Projects from '@/modules/resume/view/component/collapse-items/projects.vue'
+import Education from '@/modules/resume/view/component/collapse-items/education.vue'
+import Hobbies from '@/modules/resume/view/component/collapse-items/hobbies.vue'
+import Activities from '@/modules/resume/view/component/collapse-items/activities.vue'
 
 export default {
   name: "Accordion",
-  components: {Social, Experience, Skills, Persional_details},
+  components: {Activities, Hobbies, Education, Projects, Social, Experience, Skills, Persional_details},
   data() {
     return {
       activeIndex: [0],
       items: [
         { title: "Persional Details" },
         { title: "Skills" },
+        { title: "Social" },
         { title: "Experience" },
         { title: "Projects" },
         { title: "Education" },
-        { title: "Social" },
+        { title: "Activities" },
+        { title: "Hobbies" },
       ],
     };
   },

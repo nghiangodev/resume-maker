@@ -40,8 +40,19 @@
       <div class="text-xl font-bold mb-5">Color Theme</div>
       <tab-colors></tab-colors>
       <accordion></accordion>
+      <div class="form__group col-span-full pt-5 flex justify-between items-center">
+        <button  class="border-1 shadow-md text-black w-full hover:text-white bg-white font-bold p-2
+         rounded transition-colors duration-300 hover:bg-red-600 shadow-md flex flex-col justify-center" type="button">
+          <div class="text-center w-full mx-auto">Download your CV (PDF)
+            <font-awesome-icon icon="download"></font-awesome-icon>
+          </div>
+        </button>
+      </div>
     </div>
-    <div class="bg-gray-300 w-full md:w-2/3 p-4">Column 2</div>
+    <div class="bg-gray-300 w-full md:w-2/3">
+      Column 2
+      <Footer></Footer>
+    </div>
   </div>
 </template>
 <script>
@@ -50,6 +61,7 @@ import TabLangueges from '@/modules/resume/view/component/tabs/TabLangueges.vue'
 import TabLevels from '@/modules/resume/view/component/tabs/TabLevels.vue'
 import TabColors from '@/modules/resume/view/component/tabs/TabColors.vue'
 import Accordion from '@/modules/resume/view/AccordionComp.vue'
+import Footer from '@/components/Footer.vue'
 
 export default {
 
@@ -59,7 +71,7 @@ export default {
 
   methods: {},
 
-  components: {Accordion, TabColors, TabLevels, TabLangueges},
+  components: {Footer, Accordion, TabColors, TabLevels, TabLangueges},
 
   setup() {
 
