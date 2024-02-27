@@ -50,7 +50,10 @@
       </div>
     </div>
     <div class="bg-gray-300 w-full md:w-2/3">
-      Column 2
+      <div class="section-resume">
+        dasdasdsada
+
+      </div>
       <Footer></Footer>
     </div>
   </div>
