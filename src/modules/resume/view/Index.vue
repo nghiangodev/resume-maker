@@ -50,7 +50,7 @@
       </div>
     </div>
     <div class="bg-gray-300 w-full md:w-2/3">
-      <div class="section-resume">
+      <div class="section-resume flex">
         dasdasdsada
 
       </div>
