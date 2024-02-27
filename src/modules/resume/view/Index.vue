@@ -4,7 +4,7 @@
       <div class="flex justify-between items-center mb-9">
         <div class="text-2xl text-red-500 font-extrabold">CV Configs</div>
         <a href="https://www.buymeacoffee.com/nghiango2901" class="inline-block border-gradient">
-          <img class="w-[120px]" src="public/images/kofi5.webp">
+          <img class="w-[120px]" src="/public/images/kofi5.webp">
         </a>
       </div>
       <div class="grid grid-cols-2 gap-2 mb-5">
@@ -85,5 +85,4 @@ export default {
 }
 </script>
 <style>
-@import "../style/index.scss";
 </style>
