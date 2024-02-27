@@ -1,6 +1,6 @@
 <template>
   <div class="flex flex-wrap">
-    <div class="w-full md:w-1/3 p-4">
+    <div class="w-full md:w-1/3 p-4 bg-slate-100">
       <div class="flex justify-between items-center mb-9">
         <div class="text-2xl text-red-500 font-extrabold">CV Configs</div>
         <a href="https://www.buymeacoffee.com/nghiango2901" class="inline-block border-gradient">
