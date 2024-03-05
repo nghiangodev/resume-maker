@@ -1,35 +1,49 @@
 import { type Cv, LEVELS } from '~/types/cvfy';
 
 export const cvSettingTemplate: Cv = {
-  jobTitle: 'Deputy Director Parks Department',
-  name: 'Leslie',
-  lastName: 'Knope',
-  email: 'lknope@parksdept.com',
-  location: 'Pawnee, Indiana',
-  phoneNumber: '317-660-2160',
+  jobTitle: 'Middle Web Developer',
+  name: 'Nghia',
+  lastName: 'Ngo',
+  email: 'nghia.nvt291@gmail.com',
+  location: 'TPHCM, Vietnam',
+  phoneNumber: '0938863878',
   aboutme:
-    "My name is Leslie Knope. I am a passionate, over-achieving government employee who believes the government's #1 job is serving the people. By pairing the right people with the right messaging at the right time, the parks department and your local government can make the world a better place for everyone! I have met Joe Biden, and one day I will become the first female President of the United States.",
-  jobSkills: ['Microsoft', 'Word', 'Excel', 'PerfectMind'],
+    "My name is Nghia Ngo. Developer with over 4 Years of experience in PHP/Laravel Framework.\n" +
+    "I always ready to learn new technologies.\n" +
+    "High responsibility.\n" +
+    "Good at teamwork, reading and listening.\n" +
+    "Ability to read and understand the plugin and apply it to the project quickly.\n" +
+    "Basic communication skill in English.\n" +
+    "Able to work with Full-stack position.",
+  jobSkills: ['Php', 'Laravel', 'VueJs', 'Javascript'],
   softSkills: ['Positivity', 'Leadership', 'Public Speaking'],
-  languages: [{ lang: 'English', level: LEVELS[4] }],
+  languages: [{ lang: 'English', level: LEVELS[3] }],
   linkedin: '',
   twitter: '',
   github: '',
-  website: 'www.MsKnope.com',
+  website: 'https://github.com/nghiangodev',
   education: [
     {
-      title: 'A Environmental and Public Affairs',
-      location: 'Indiana University, Bloomington, Indiana',
+      title: 'Hoa sen University',
+      location: 'Viet Nam',
       from: new Date(1993, 9, 1),
       to: new Date(1993, 4, 1),
       current: false,
-      summary: '<p>Summa cum Laude</p>',
+      summary: '<p>Software Engineer</p>',
+    },
+    {
+      title: 'FPT Aptech',
+      location: 'Viet Nam',
+      from: new Date(1993, 9, 1),
+      to: new Date(1993, 4, 1),
+      current: false,
+      summary: '<p>Software Engineer</p>',
     },
   ],
   work: [
     {
-      title: 'Deputy Director Parks Department',
-      location: 'City of Pawnee, Indiana',
+      title: 'Lot Corporation',
+      location: 'USA',
       from: new Date(2009, 1, 1),
       to: new Date(2012, 1, 1),
       current: true,
@@ -37,8 +51,17 @@ export const cvSettingTemplate: Cv = {
         '<ul><li><p>In placerat nisi pellentesque felis blandit, vel varius justo eleifend.</p></li><li><p>Etiam porttitor tortor vel lobortis ultricies.</p></li><li><p>Nam non libero accumsan, sagittis nibh vitae, auctor ligula.</p></li><li><p>Sed hendrerit dui a ante porttitor, vitae tristique ipsum laoreet.</p></li><li><p>Suspendisse interdum mauris a lectus dignissim, vitae aliquet ante tempor.</p></li></ul>',
     },
     {
-      title: 'City Councilor',
-      location: 'City of Pawnee, Indiana',
+      title: 'Ihouzz Technology',
+      location: 'VN',
+      from: new Date(2012, 1, 1),
+      to: new Date(),
+      current: true,
+      summary:
+        '<ul><li><p>Sed ut lorem viverra urna malesuada interdum in ut risus.</p></li><li><p>Duis at sem non justo aliquam iaculis.</p></li><li><p>Quisque lobortis nibh non turpis interdum ornare.</p></li><li><p>Sed et diam nec arcu tempor suscipit sit amet at tellus.</p></li><li><p>Duis quis diam imperdiet, pharetra lacus eget, fringilla odio.</p></li></ul>',
+    },
+    {
+      title: 'Cloudteam',
+      location: 'VN',
       from: new Date(2012, 1, 1),
       to: new Date(),
       current: true,
@@ -48,8 +71,26 @@ export const cvSettingTemplate: Cv = {
   ],
   projects: [
     {
-      title: 'Lot 48',
-      location: 'City of Pawnee, Indiana',
+      title: 'https://tiemvangngoctam.com/',
+      location: 'VN',
+      from: new Date(2009, 1, 1),
+      to: new Date(2012, 1, 1),
+      current: true,
+      summary:
+        '<ul><li><p>Sed ut lorem viverra urna malesuada interdum in ut risus.</p></li><li><p>Duis at sem non justo aliquam iaculis.</p></li><li><p>Quisque lobortis nibh non turpis interdum ornare.</p></li><li><p>Sed et diam nec arcu tempor suscipit sit amet at tellus.</p></li><li><p>Duis quis diam imperdiet, pharetra lacus eget, fringilla odio.</p></li></ul>',
+    },
+    {
+      title: 'https://phatgiao.info/',
+      location: 'VN',
+      from: new Date(2009, 1, 1),
+      to: new Date(2012, 1, 1),
+      current: true,
+      summary:
+        '<ul><li><p>Sed ut lorem viverra urna malesuada interdum in ut risus.</p></li><li><p>Duis at sem non justo aliquam iaculis.</p></li><li><p>Quisque lobortis nibh non turpis interdum ornare.</p></li><li><p>Sed et diam nec arcu tempor suscipit sit amet at tellus.</p></li><li><p>Duis quis diam imperdiet, pharetra lacus eget, fringilla odio.</p></li></ul>',
+    },
+    {
+      title: 'https://ketnoithienchua.com/',
+      location: 'VN',
       from: new Date(2009, 1, 1),
       to: new Date(2012, 1, 1),
       current: true,

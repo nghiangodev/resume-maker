@@ -1,3 +1,3 @@
-npm install 
+nuxt build
 
-npm run dev
+nuxt dev

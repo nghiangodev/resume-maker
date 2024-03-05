@@ -51,7 +51,7 @@ export default defineComponent({
         {
           hid: 'og:author',
           property: 'og:author',
-          content: 'Claudia Benito',
+          content: 'NghiaNgo',
         },
         {
           hid: 'og:title',
