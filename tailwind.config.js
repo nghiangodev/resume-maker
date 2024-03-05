@@ -1,10 +1,21 @@
-/** @type {import('tailwindcss').Config} */
-export default {
-	content: [],
-	purge: ["./index.html", "./src/**/*.{vue,js,ts,jsx,tsx}"],
+const defaultTheme = require('tailwindcss/defaultTheme');
 
-	theme: {
-		extend: {},
-	},
-	plugins: [],
+export default {
+  theme: {
+    fontFamily: {
+      sans: ['Roboto', 'sans-serif'],
+      serif: ['Roboto Slab', 'serif'],
+    },
+    extend: {
+      colors: {
+        primary: defaultTheme.colors.purple,
+      },
+    },
+    future: {
+      purgeLayersByDefault: true,
+    },
+    purge: {
+      layers: ['utilities'],
+    },
+  },
 };
